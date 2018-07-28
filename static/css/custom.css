@@ -1,0 +1,26 @@
+div#logo{
+	z-index: 100;
+	left: 0;
+	width: 175px;
+	height: 175px;
+	margin-left: 0;
+	text-align: center;
+	max-height: 125px;
+}
+div#nav{
+    max-height: 100px;
+    }
+.img-center {
+  display: block;
+  margin: auto;
+}
+img#map {
+	max-width: 100%;
+    height: auto;
+}
+
+/*.fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50% !important;
+}*/

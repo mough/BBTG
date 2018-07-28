@@ -94,7 +94,7 @@ gulp.task('js:minify', function() {
     .pipe(header(banner, {
       pkg: pkg
     }))
-    .pipe(gulp.dest('./js'))
+    .pipe(gulp.dest('/static/js'))
     .pipe(browserSync.stream());
 });
 
@@ -117,5 +117,5 @@ gulp.task('browserSync', function() {
 gulp.task('dev', ['css', 'js', 'browserSync'], function() {
   gulp.watch('./scss/*.scss', ['css']);
   gulp.watch('./js/*.js', ['js']);
-  gulp.watch('./*.html', browserSync.reload);
+  gulp.watch('../templates/*.html', browserSync.reload);
 });
