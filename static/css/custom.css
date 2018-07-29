@@ -11,12 +11,22 @@ div#nav{
     max-height: 100px;
     }
 .img-center {
-  display: block;
   margin: auto;
+  padding: 20px;
 }
 img#map {
 	max-width: 100%;
     height: auto;
+}
+
+.inline {
+  display: inline-grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.list-align-left {
+text-align: left;
 }
 
 /*.fluid {
