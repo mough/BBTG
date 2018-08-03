@@ -13,6 +13,7 @@ div#nav{
 .img-center {
   margin: auto;
   padding: 20px;
+  width: 100%;
 }
 img#map {
 	max-width: 100%;
