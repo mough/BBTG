@@ -1,13 +1,12 @@
-div#logo{
+img#logo{
 	z-index: 100;
 	left: 0;
-	width: 175px;
-	height: 175px;
+	width: 145px;
 	margin-left: 0;
 	text-align: center;
 	max-height: 125px;
 }
-div#nav{
+img#nav{
     max-height: 100px;
     }
 .img-center {
